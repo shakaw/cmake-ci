@@ -10,7 +10,7 @@ done
 
 boost_name="boost_${ver_}"
 boost_tar="${boost_name}.tar.gz"
-boost_url="https://boostorg.jfrog.io/artifactory/main/release/$ver/source/${boost_tar}"
+boost_url="https://archives.boost.io/release/$ver/source/${boost_tar}"
 
 if [ ! -f "$boost_tar" ]; then
   echo "Download boost from ${boost_url} ..."
